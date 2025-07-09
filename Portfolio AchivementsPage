@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maanvitha's Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+<style>
+nav {
+  display: flex;
+  justify-content: flex-end; /* aligns items to the left */
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  color: ;
+  transform: translateY(-5px); /* pop-up effect without shifting layout */
+}
+
+img:hover{
+ transform: translateY(-20px); /* pop-up effect without shifting layout */
+}
+
+body {
+     
+  background-color:black;
+  }
+
+.certificates-section h2 {
+  font-size: 28px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.certificates {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* adds gap between images */
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+}
+
+.certificates-section {
+  text-align: center; /* centers the heading and content */
+  margin-top: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+  position: relative;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+
+</style>
+</head>
+<body>
+  <header>
+        <nav>
+	<a href="Profile.html">Profile</a>
+      <a href="achivements.html">About Me</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="certificates-section">
+      <h2 style: align="center">Certificates</h2><br>
+	<div class="certificates">
+	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\c certificate.jpg" width="350" height="300">
+      	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\python certificate.jpg" width="350" height="300">
+      	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\infoseccertificate.jpg" width="350" height="300">
+
+   </div> </div>
+
+    <section class="resume">
+	<a href="C:\Users\bbhav\OneDrive\Desktop\portfolio\maanvitha resume1.pdf" download>
+
+    </section>
+  </main>
+
+  </body>
+</html>
