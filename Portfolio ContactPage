@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maanvitha's Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style> 
+
+body {
+     
+  background-color:black;
+  background-size: cover;
+  background-position: center center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed;}
+nav {
+  display: flex;
+  justify-content: flex-end; /* aligns items to the left */
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+  position: relative;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: ;
+  transform: translateY(-5px); /* pop-up effect without shifting layout */
+}
+
+h1{
+color:white;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+
+}
+
+.contact-card {
+  background-color: white;
+  border: 2px solid #333;
+  padding: 20px;
+  min-width: 250px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-card:hover{
+  transform: translateY(-5px);
+}
+.contact-card img {
+  width: 30px;
+  height: 30px;
+}
+     
+      
+   </style>
+</head>
+<body>
+  <header>
+
+    <nav>
+<span class="sr-only"></span>
+      <a href="Profile.html">Profile</a>
+      <a href="achivements.html">About Me</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+<br>
+<br><br>
+    <h1 style: align="center"><b>Lets Connect</h2>
+
+<div class="contact-container">
+	<a class="contact-card" href="https://www.maanvitha30@gmail.com/"  target="_blank">
+	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\mailicon.png" width="20" height="20">:  maanvitha30@gmail.com
+	</a>
+
+
+
+
+	<a class="contact-card" href="tel:+916302325665">
+	<p><img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\phoneicon.jpg" width="25" height="25">:   +91 6302325665</p>
+	</a>
+
+    
+
+
+	<a class="contact-card" href="https://www.linkedin.com/in/maanvitha-bobburi/">
+	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\linkedin.jpg" width="35" height="35">: www.linkedin.com/in/maanvitha-bobburi
+	</a>
+</div><br>
+<br>
+
+
+      </main>
+
+  </body>
+</html>
