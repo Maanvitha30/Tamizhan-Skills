@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<title>Maanvitha's Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+
+<style>
+body {
+     
+  background-color: black;
+  background-size: cover;
+  background-position: center center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed;}
+
+nav {
+  display: flex;
+  justify-content: flex-end; /* aligns items to the left */
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+  position: relative;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: ;
+ }
+p1{
+color:white;
+font-size:20px;
+}
+
+p{
+color:white;
+font-size:20px;
+text-align: center;
+}
+
+h1{
+color:white;
+text-align:center;
+}
+
+h2{
+color:white;
+text-align:center;
+}
+.side-heading{
+  text-align:left;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* centers rows themselves */
+}
+
+.skills-row {
+  display: flex;
+  gap: 20px;
+}
+
+.second-row {
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.contact-card1 {
+  background-color: transperant;
+  border: none;
+  width: 1400px;
+  height: 180px;
+align-items: center;
+display: flex;
+border-radius: 0px;
+justify-content: center;
+box-sizing: border-box;
+padding: 0px;
+margin: 0 auto; 
+}
+
+.contact-card2 {
+  background-color: transperant;
+  border: none;
+  padding: 0px;
+width: fit-content;
+  height: fit-content;
+margin: 0 auto; 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 0px;
+justify-content: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-card {
+  background-color: transperant;
+  border: none;
+  padding: 0px;
+width: fit-content;
+  height: fit-content;
+margin: 0 auto; 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 0px;
+justify-content: center;
+ 
+  text-decoration: none;
+  color: black;
+}
+
+</style>
+</head>
+
+
+
+
+
+
+
+
+<body>
+  <header>
+    <nav>
+      <a href="Profile.html">Profile</a>
+      <a href="achivements.html">About Me</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+    <h1><b>About Me</h1>
+
+  <main>
+
+<a class="contact-card1">
+<div class="summary-section">
+	
+	<h2 class="side-heading">Professional Summary</h2>
+<div class="summary-text">
+	<p1>I am a dedicated and curious B.Tech 3rd-year Computer Science Engineering student with a strong passion for technology and innovation. Actively gaining hands-on experience in Web Development, Machine Learning & Artificial Intelligence, and UI/UX Design, I strive to build solutions that are both technically sound and user-centric. I thrive in collaborative environments, enjoy continuous learning, and am keen to contribute to real-world projects that create meaningful impact. My growing skill set bridges the gap between frontend creativity, backend logic, and intelligent systems, positioning me for a dynamic tech-driven career.</p1></div>
+</div> </a><br><br><br>
+
+
+<a class="contact-card2">
+<div class="edu-sec">
+    <h2>Education</h2>
+      <p>Ramachandra College of Engineering<br>
+      Course: Computer Science Engineering (CSE)
+<br>Year: 2024 - 2027 (Pursuing)</p></div></a>
+
+<br>
+  <a class="contact-card">
+
+<div class="skills-section">
+  <h2>Technical Skills</h2>
+   
+<div class="skills-wrapper">
+    <div class="skills-row">
+	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\java.png" width="75" height="75">
+	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\python.webp" width="75" height="75">
+	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\c.png" width="75" height="75">
+	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\html.webp" width="75" height="75">
+     </div>
+     <div class="skills-row second-row">
+	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\css.png" width="75" height="75">
+	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\js.jpg" width="75" height="75">
+	<img src="C:\Users\bbhav\OneDrive\Desktop\portfolio\ux.webp" width="75" height="75">
+     </div>
+   </div>
+
+</div>
+</a>
+
+
+
+<br>
+<br>
+  </main>
+  
+</body>
+</html>
